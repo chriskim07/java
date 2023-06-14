@@ -16,8 +16,7 @@ public class ClientEx {
                                 .header(HttpHeader.CONTENT_TYPE, "application/json")
                                 .content(new StringContentProvider("{\"username\":\"jliu\",\"password\":\"123456\"}", "utf-8"))
                                 .send();
-		
-		System.out.println(res.getContentAsString());
+    System.out.println(res.getContentAsString());
     
   }
 }
