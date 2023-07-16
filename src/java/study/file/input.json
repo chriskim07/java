@@ -1,0 +1,9 @@
+{
+    "id" : "textId",
+    "array" : [1, 2, 3, 4, 5],
+    "data" : {
+        "data1" : "value1",
+        "data2" : "value2",
+        "data3" : ["value3_1", "value3_2"]
+    }
+}
